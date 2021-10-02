@@ -6,7 +6,7 @@ $(function(){
         var answerthree = $("#answer-3").val();
         var answerfour = $("#answer-4").val();
 
-        if(answerone==4 && answertwo==1 && answerthree==3 && answerfour==5){
+        if(answerone==4 && answertwo==3 && answerthree==1 && answerfour==5){
             $('.feedback').addClass('active');
             $('.fake').removeClass('active');
         }else{
