@@ -5,7 +5,14 @@ select{
     text-align: center;
     margin-right: 10px;
 }
-@media(max-width:400px){
+@media(max-width:420px){
+    select{
+        width: 30px;
+        height: 33px;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    @media(max-width:770px){
     select{
         width: 50px;
         height: 33px;
@@ -33,7 +40,7 @@ button:active{
     top: 5px;
     box-shadow: none;
 }
-@media(max-width:400px){
+@media(max-width:420px){
     button{
         width: 30px;
         height: 30px;
@@ -46,6 +53,20 @@ button:active{
         top: 3px;
     }
 }
+    @media(max-width:770px){
+    button{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 30px;
+        box-shadow: 0px 3px;
+    }
+    button:active{
+        position: relative;
+        top: 3px;
+    }
+}
+
 
 
 
@@ -74,7 +95,7 @@ img{
     margin-right: 20%;
     margin-left: 20%;
 }
-@media(max-width:400px){
+@media(max-width:420px){
     .cover{
         margin-right: 5%;
         margin-left: 5%;
