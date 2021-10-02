@@ -12,6 +12,7 @@ select{
         font-size: 15px;
         margin-right: 5px;
     }
+}
     @media(max-width:770px){
     select{
         width: 50px;
